@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
+
 public class GuessingGame {
     public static void main(String[] args) {
         Random random = new Random();
@@ -22,7 +23,7 @@ public class GuessingGame {
             } else if (guess > numberToGuess) {
                 System.out.println("Too high. Try again.");
             } else {
-                System.out.println("Congratulations! You've guessed the right number in " + numberOfTries + " tries!");
+                System.out.println("Congratulations! You've guessed the absolute right number in " + numberOfTries + " tries!");
                 break;
             }
         }
